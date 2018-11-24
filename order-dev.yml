@@ -20,14 +20,9 @@ spring:
        enabled: true
        serviceId: config
      profile: dev
-#  ÉèÖÃ³¬Ê±Ê±¼ä·ñÔòµ÷ÓÃproduct»á³¬Ê±±¨´í£º¡ú  feign.RetryableException: Read timed out executing POST http://product/product/listForOrder
+#  è®¾ç½®è¶…æ—¶æ—¶é—´å¦åˆ™è°ƒç”¨productä¼šè¶…æ—¶æŠ¥é”™ï¼šâ†’  feign.RetryableException: Read timed out executing POST http://product/product/listForOrder
 ribbon:
   ReadTimeout: 60000
   ConnectionTimeout: 60000
 evn: dev
-
-
-
-
-spring:
   
